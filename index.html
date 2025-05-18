@@ -21,7 +21,25 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Nunito:wght@400;600;700&display=swap");
     </style>
+
+    <style>
+      @media (max-width: 640px) {
+        .name-heading {
+          font-size: 1.75rem; /* Decrease size for mobile */
+        }
+
+        .greeting-heading,
+        .title-heading {
+          font-size: 1.25rem;
+        }
+
+        .element {
+          font-size: 1.25rem;
+        }
+      }
+    </style>
   </head>
+
   <body class="bg-[#191f36] text-white font-[Nunito]">
     <!-- Header -->
     <header
@@ -87,13 +105,14 @@
     >
       <!-- Text Content -->
       <div class="home-content max-w-xl text-left">
-        <h3 class="text-2xl font-semibold">Hi, Myself</h3>
-        <h1 class="text-4xl font-bold leading-snug mt-2">Shehzad Habib</h1>
-        <h3 class="text-2xl font-semibold mb-6">
-          <h1 class="text-4xl font-bold text-white">
-            And I'm a <span class="element text-blue-400"></span>
-          </h1>
+        <h3 class="greeting-heading text-2xl font-semibold">Hi, Myself</h3>
+        <h1 class="name-heading text-4xl font-bold leading-snug mt-2">
+          Shehzad Habib
+        </h1>
+        <h3 class="title-heading text-2xl font-semibold mb-6">
+          And I'm a <span class="element text-blue-400"></span>
         </h3>
+
         <p class="text-[14px] text-gray-300 mb-6 font-semibold w-full">
           I'm a passionate
           <span class="text-blue-400">Frontend Developer</span> and
