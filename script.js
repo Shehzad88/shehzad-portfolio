@@ -94,8 +94,8 @@ menuIcon.onclick = () => {
   document.addEventListener('DOMContentLoaded', function () {
     var typed = new Typed('.element', {
       strings: ["Frontend Developer.", "UI/UX Designer."],
-      typeSpeed: 40,
-      backSpeed: 40,
+      typeSpeed: 80,
+      backSpeed: 60,
       loop: true
     });
   });
