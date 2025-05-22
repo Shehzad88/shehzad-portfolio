@@ -49,14 +49,9 @@
         >Portfolio</a
       >
 
-      <!-- Hamburger icon: hidden on md and above -->
-      <!-- Menu Icon -->
-      <i
-        id="menu-icon"
-        class="fa-solid fa-bars text-white text-xl block md:hidden cursor-pointer"
-      ></i>
+      <!-- ✅ Hamburger icon — only visible on mobile -->
 
-      <!-- Desktop Navigation -->
+      <!-- ✅ Desktop Navigation — only visible on md and above -->
       <nav id="desktop-nav" class="hidden md:flex gap-10">
         <a href="#home" class="text-blue-400 font-semibold active">Home</a>
         <a href="#about" class="text-white font-semibold hover:text-blue-400"
@@ -74,11 +69,11 @@
           >Contact Us</a
         >
       </nav>
-      <!-- Mobile Navigation -->
 
+      <!-- ✅ Mobile Navigation — hidden by default, shown only when toggled -->
       <nav
         id="mobile-nav"
-        class="md:hidden hidden flex flex-col gap-4 bg-gray-800 px-4 py-4 z-50 top-0 left-0 w-full absolute mt-16"
+        class="md:hidden hidden flex flex-col gap-4 bg-gray-800 px-4 py-4 z-50 absolute top-full left-0 w-full"
       >
         <a href="#home" class="text-blue-400 font-semibold">Home</a>
         <a href="#about" class="text-white font-semibold hover:text-blue-400"

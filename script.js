@@ -7,7 +7,7 @@ const mobileNav = document.querySelector('#mobile-nav');
 menuIcon.onclick = () => {
   // Toggle the 'fa-bars' and 'fa-xmark' classes for the icon
   menuIcon.classList.toggle('fa-bars');
-  menuIcon.classList.toggle('fa-xmark');
+  menuIcon.classList.toggle('');
 
   // Remove or add the 'hidden' class to control visibility
   mobileNav.classList.toggle('hidden');
