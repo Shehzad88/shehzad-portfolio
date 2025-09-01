@@ -93,3 +93,14 @@ const menuIcon = document.querySelector('#menu-icon');
             alert("Failed to send message: " + error.text);
           });
       });
+
+
+      document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+      duration: 900,      
+      easing: 'ease-out', 
+      offset: 80,         
+      once: true          
+
+    });
+  });
